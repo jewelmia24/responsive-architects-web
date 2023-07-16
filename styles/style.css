@@ -1,0 +1,104 @@
+ @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,700&family=Open+Sans:ital,wght@0,400;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Work+Sans:wght@300;400;500;600;700;800&display=swap');
+
+ /* shared styles */
+ * {
+     font-family: 'Work Sans', sans-serif;
+     margin: 0;
+     padding: 0;
+ }
+
+ .title {
+     color: #131313;
+     font-size: 2.8vw;
+     font-weight: 700;
+ }
+
+ .common-pragraph {
+     color: #727272;
+     font-size: 1vw;
+     font-weight: 400;
+     margin-top: 10px;
+ }
+
+ .btn-primary {
+     border-radius: 8px;
+     background: #FF900E;
+     color: #FFF;
+     text-align: center;
+     font-size: 1.2rem;
+     font-weight: 600;
+     padding: 20px 25px;
+     border-style: none;
+     margin-top: 30px;
+ }
+
+ /* header ralated styles */
+ /* nav related styles */
+ header {
+     background: rgba(255, 144, 14, 0.10);
+     padding: 50px 240px;
+ }
+
+ .nav-container {
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .nav-container ul {
+     display: flex;
+     list-style: none;
+ }
+
+ .nav-container a {
+     text-decoration: none;
+     margin-left: 30px;
+     font-weight: 500;
+     color: #424242;
+     font-size: 1.2rem;
+ }
+
+ /* header discription related styles */
+ .header-container {
+     margin-top: 80px;
+     text-align: center;
+     padding: 0px 200px;
+ }
+
+ .header-title {
+     color: #131313;
+     font-size: 3.5vw;
+     font-weight: 700;
+     margin-bottom: 30px;
+ }
+ .banner-container img{
+    width: 100%;
+    margin-top: 50px;
+ }
+
+
+ /* responsive relatder styles */
+
+ /* mobile device related styles */
+ @media screen and (max-width:576px) {
+
+    header,
+    .header-container
+    {
+        padding: 5px 10px;
+    }
+    .nav-container{
+        flex-direction: column;
+    }
+    .title {
+        font-size: 7vw;
+        margin-bottom: 10px;
+    }
+
+    .nav-container a{
+        margin-left: 15px;
+    }
+    .header-title{
+        font-size: 8vw;
+        margin-top: 5px;
+    }
+ }
