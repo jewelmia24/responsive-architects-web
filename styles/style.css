@@ -42,6 +42,7 @@
  .nav-container {
      display: flex;
      justify-content: space-between;
+     align-items: center;
  }
 
  .nav-container ul {
@@ -157,6 +158,7 @@
      display: flex;
      justify-content: space-between;
      margin-top: 60px;
+     justify-content:center ;
 
  }
  .sponsors-container img{
@@ -204,7 +206,7 @@
      }
 
      .sponsors-container img {
-         width: 200px;
+         width: 100px;
          margin: 10px 10px;
      }
 
