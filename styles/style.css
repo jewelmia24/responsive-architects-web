@@ -159,6 +159,9 @@
      margin-top: 60px;
 
  }
+ .sponsors-container img{
+    width: 100px;
+ }
 
  /* footer related style */
  footer {
