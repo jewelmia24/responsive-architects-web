@@ -119,8 +119,8 @@
 
  .facts-container {
      display: grid;
-     grid-template-columns: repeat(4,1fr);
-     justify-content:space-between;
+     grid-template-columns: repeat(4, 1fr);
+     justify-content: space-between;
      margin-top: 50px;
      justify-content: center;
 
@@ -130,8 +130,8 @@
      border-radius: 8px;
      border: 1px solid #FF900E;
      text-align: center;
-     width: 150px;
-     height: 200px;
+     width: 130px;
+     height: 180px;
      padding: 30px 25px;
  }
 
@@ -148,15 +148,31 @@
  }
 
  /* sponsors related style */
- .sponsors-section{
-    text-align: center;
-    margin-top: 100px;
+ .sponsors-section {
+     text-align: center;
+     margin-top: 100px;
  }
- .sponsors-container{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 60px;
 
+ .sponsors-container {
+     display: flex;
+     justify-content: space-between;
+     margin-top: 60px;
+
+ }
+
+ /* footer related style */
+ footer {
+     border-radius: 8px;
+     background: #FFF4E7;
+     text-align: center;
+     color: #424242;
+     font-size: 1.2rem;
+     font-weight: 400;
+     margin: 60px 200px;
+     height: 100px;
+ }
+ .footer-description{
+    padding-top: 40px;
  }
 
  /* responsive relatder styles */
@@ -180,12 +196,13 @@
 
      .team-section,
      .nav-container,
-     .sponsors-container{
+     .sponsors-container {
          flex-direction: column;
      }
-     .sponsors-container img{
-        width: 200px;
-        margin: 10px 10px;
+
+     .sponsors-container img {
+         width: 200px;
+         margin: 10px 10px;
      }
 
      .title {
@@ -223,8 +240,12 @@
          gap: 10px;
          align-items: center;
      }
-     .facts-container{
-        grid-template-columns: repeat(2,1fr);
+
+     .facts-container {
+         grid-template-columns: repeat(2, 1fr);
+     }
+     footer{
+        margin: 10px 0px;
      }
  }
 
@@ -234,8 +255,9 @@
      main {
          margin: 20px 60px;
      }
-     .header-title{
-        font-size: 5vw;
+
+     .header-title {
+         font-size: 5vw;
      }
 
      .team-section {
@@ -264,11 +286,13 @@
      .common-paragraph {
          font-size: 2vw;
      }
-     .sponsors-container{
-        gap: 5px;
+
+     .sponsors-container {
+         gap: 5px;
      }
-     .sponsors-container img{
-        width: 100px;
+
+     .sponsors-container img {
+         width: 100px;
      }
 
  }
